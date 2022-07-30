@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.login-page{
+    display: flex;
+    background-color: rgb(10, 100, 184);
+    height: 100vh;
+}
+.login-card{
+    background-color: whitesmoke;
+    box-shadow: 1px 1px rgb(44, 42, 42);
+    height: 200px;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.login-btn{
+    width: 60%;
+    margin: auto auto auto auto;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+.login-btn :hover{
+    cursor: pointer;
+}
+.google{
+    background-color: brown;
+}
+.google :hover{
+    cursor: pointer;
+}
+
+.facebook{
+    background-color: rgb(10, 100, 184);
+   
+}
+.facebook :hover{
+    cursor: pointer;
+}
+
+.nav-bar{
+    display: flex;
+    height: 50px;
+    color: white;
+    background-color: rgb(10, 100, 184);
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.logo-tab{
+    display: flex;
+    font-weight: bold;
+    justify-content: left;
+    width: 50%;
+    font-size:x-large;
+    margin-left: 20px;
+    
+}
+
+.logout-tab{
+    display: flex;
+    font-weight: bold;
+    justify-content: right;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.logout-tab :hover {
+    cursor:pointer;
+}
